@@ -1,0 +1,109 @@
+/* .newsletter{
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    padding-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60% );
+    gap: 30px;
+}
+.newsletter h1{
+    color: #454545;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.newsletter p{
+    color: #454545;
+    font-size: 20px;
+}
+.newsletter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 50px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+.newsletter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: poppins;
+    font-size: 16px;
+}
+.newsletter div button{
+    width: 210px;
+    height: 50px;
+    border-radius: 50px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+} */
+
+
+
+
+.newsletter {
+    width: 80%; /* Adjust width */
+    max-width: 800px; /* Set maximum width */
+    margin: 50px auto; /* Center the section */
+    padding: 30px; /* Adjust padding */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    text-align: center; /* Center align text */
+}
+
+.newsletter h1 {
+    color: #333; /* Dark text color */
+    font-size: 24px; /* Adjust font size */
+    font-weight: 600;
+    margin-bottom: 20px; /* Add bottom margin */
+}
+
+.newsletter p {
+    color: #666; /* Darker gray text color */
+    font-size: 16px; /* Adjust font size */
+    margin-bottom: 30px; /* Add bottom margin */
+}
+
+.newsletter form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px; /* Adjust max width */
+    margin: 0 auto; /* Center the form */
+}
+
+.newsletter input[type="email"] {
+    width: 70%; /* Adjust width */
+    padding: 10px; /* Adjust padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    margin-right: 10px; /* Add right margin */
+}
+
+.newsletter button {
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition */
+}
+
+.newsletter button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

@@ -1,0 +1,90 @@
+/* .offers{
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    margin-top: 24vh;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60% );
+}
+.offers-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.offers-left h1{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.offers-left p{
+    color: #171717;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.offers-left button{
+    padding: 12px;
+    width: 180px;
+    height: 50px;
+    border-radius: 35px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+} */
+
+
+.offers {
+    width: 80%; /* Adjust width */
+    max-width: 1200px; /* Set maximum width */
+    margin: 100px auto; /* Center align and adjust margin */
+    padding: 30px; /* Reduce padding for a smaller height */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.offers h1 {
+    color: #333; /* Dark text color */
+    font-size: 36px; /* Adjust font size */
+    font-weight: 700;
+    margin-bottom: 20px; /* Add bottom margin */
+}
+
+.offers p {
+    color: #666; /* Darker gray text color */
+    font-size: 18px; /* Adjust font size */
+    font-weight: 400;
+    margin-bottom: 30px; /* Add bottom margin */
+}
+
+.offers button {
+    padding: 15px 30px; /* Adjust padding */
+    border-radius: 25px; /* Add border radius */
+    background-color: #007bff; /* Blue button color */
+    border: none;
+    color: #fff; /* White text color */
+    font-size: 20px; /* Adjust font size */
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition */
+}
+
+.offers button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+.offers-right img{
+    width: 40%;
+    height: 40%;
+}

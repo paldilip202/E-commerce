@@ -1,0 +1,138 @@
+/* .loginsignup{
+    width: 100%;
+    height: 90vh;
+    background: #f3bbf7;
+    padding-top: 100px;
+    margin-bottom: 190px;
+}
+.loginsignup-container{
+    width: 580px;
+    height: 450px;
+    background: white;
+    margin: auto;
+    padding: 40px 80px;
+}
+.loginsignup-container h1{
+    margin: 20px 0px;
+
+}
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 30px;
+}
+.loginsignup-fields input{
+    /* height: 38px; */
+    /* height: 55px;
+    width: 100%;
+    padding-left: 20px;
+    border: 5px solid #c9c9c9;
+    outline: none;
+    font-size: 12px;
+}
+.loginsignup-container button{
+    width: 580px;
+    height: 50px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginsignup-login{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginsignup-login span{
+    color: #ff4141;
+    font-weight: 600;
+    cursor: pointer;
+}
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+} */
+ */
+
+
+ /* chatgpt */
+
+ .loginsignup {
+    width: 100%;
+    height: 90vh;
+    background: white; /* Change background color to white */
+    padding-top: 100px;
+    margin-bottom: 190px;
+}
+
+.loginsignup-container {
+    width: 580px;
+    height: 450px;
+    background: #f3f3f3; /* Change background color */
+    margin: auto;
+    padding: 40px 80px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+.loginsignup-container h1 {
+    margin: 20px 0px;
+    color: #333; /* Change text color */
+}
+
+.loginsignup-fields input {
+    height: 55px;
+    width: 100%;
+    padding-left: 20px;
+    border: 2px solid #ccc; /* Change border color */
+    outline: none;
+    font-size: 16px; /* Increase font size */
+}
+
+.loginsignup-container button {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #007bff; /* Change button color */
+    margin-top: 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+.loginsignup-container button:hover {
+    background: #0056b3; /* Darker shade on hover */
+}
+
+.loginsignup-login {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333; /* Change text color */
+}
+
+.loginsignup-login span {
+    color: #007bff; /* Change link color */
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.loginsignup-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c; /* Change text color */
+    font-size: 16px; /* Decrease font size */
+    font-weight: 500;
+}
